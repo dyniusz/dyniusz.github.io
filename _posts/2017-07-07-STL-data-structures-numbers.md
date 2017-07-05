@@ -4,7 +4,7 @@ title: "Numbers every C++ programmer should know"
 date: 2017-07-07
 ---
 <div class="css-full-post-content js-full-post-content">
-<div dir="ltr" style="text-align: left;" trbidi="on">For everyone storing significant number of items in STL data structures.
+<div dir="ltr" style="text-align: left;" trbidi="on">For everyone storing significant number of items in STL data structures.</div>
 <table>
 <thead>
 <tr><th>Data structure</th><th>Memory per element (bytes)</th></tr>
@@ -20,6 +20,6 @@ date: 2017-07-07
 <tr><td>shared_ptr(V)</td><td>sizeof(V) aligned to 8 + 32</td></tr>
 <tr><td>set(V)</td><td>sizeof(V) aligned to 8 + 32</td></tr>          
 <tr><td>map(K,V)</td><td>sizeof(pair(K, V)) aligned to 8 + 32</td></tr>
+</tbody>
 </table>
-</div>
 </div>
