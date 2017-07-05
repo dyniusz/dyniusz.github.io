@@ -21,6 +21,6 @@ date: 2017-07-07
 |  map(K,V)                  |                         sizeof(pair(K, V)) aligned to 8 + 32  |
 
 g++7 --std=c++14, x86_64
-load factor 1.0 for unordered_ and vector (real world numbers will be a few bytes higher)
+load factor 1.0 for unordered containers and vector (real world numbers will be a few bytes higher)
 shared_ptr created with make_shared
 </div>
