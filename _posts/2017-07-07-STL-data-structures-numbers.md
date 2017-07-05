@@ -4,10 +4,10 @@ title: "Numbers every C++ programmer should know"
 date: 2017-07-07
 ---
 <div class="css-full-post-content js-full-post-content">
-<div dir="ltr" style="text-align: left;" trbidi="on">For everyone storing significant number of items in STL data structures.</div>
+<div dir="ltr" style="text-align: left;" trbidi="on">For everyone storing significant number of items in STL data structures.
 
 | Data structure           | Memory per element (bytes)           |
-|:-------------------------|:-------------------------------------|
+|--------------------------|--------------------------------------|
 | vector(V)                | sizeof(V)                            |                             
 | unique_ptr(V)            | sizeof(V) + 8                        |                        
 | list(Value)              | sizeof(V) aligned to 8 + 16          |                    
@@ -19,4 +19,5 @@ date: 2017-07-07
 | set(V)                   | sizeof(V) aligned to 8 + 32          |          
 | map(K,V)                 | sizeof(pair(K, V)) aligned to 8 + 32 |
 
+</div>
 </div>
