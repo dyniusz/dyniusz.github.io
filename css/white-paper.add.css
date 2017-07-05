@@ -325,6 +325,7 @@ blockquote p {
 }
 
 table {
+	width: 100%;
 	border-top: 1px solid #CCCCCC;
 	border-bottom: 2px solid #CCC;
 	color: #000;
