@@ -7,8 +7,8 @@ date: 2017-07-07
 <div dir="ltr" style="text-align: left;" trbidi="on">For everyone storing significant number of items in STL data structures.</div>
 
 
-|  Data structure | | Memory per element (bytes)|
-|:---|:---|:---|
+|  Data structure | Memory per element (bytes)|
+|:---|:---|
 |  vector(V) |  sizeof(V)                             |
 |  unique_ptr(V) |  sizeof(V) + 8                         |
 |  list(Value) |  sizeof(V) aligned to 8 + 16           |          
