@@ -325,13 +325,12 @@ blockquote p {
 }
 
 table {
-	width: 100%;
 	border-top: 1px solid #CCCCCC;
 	border-bottom: 2px solid #CCC;
 	color: #000;
 	background: #fff;
 	border-collapse: separate;
-	font-size: 11px;
+	font-size: 12px;
 }
 
 caption {
