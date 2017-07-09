@@ -10,7 +10,7 @@ date: 2017-07-07
 <thead>
 <tr><th>Data structure</th><th>Memory per element (bytes)</th></tr>
 </thead>
-<tbody align="center">
+<tbody align="left">
 <tr><td>vector(V)</td><td>sizeof(V)</td></tr>                             
 <tr><td>unique_ptr(V)</td><td>sizeof(V) + 8</td></tr>
 <tr><td>list(Value)</td><td>sizeof(V) aligned to 8 + 16</td></tr>                    
